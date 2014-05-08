@@ -391,7 +391,7 @@ nav {
   width: 100%; }
 
 #slide1 {
-  background: url("../img/butcher.jpg") 50% 0 no-repeat fixed;
+  background: url("../img/butcher2.jpg") 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   margin: 0;
@@ -399,7 +399,7 @@ nav {
   background-size: cover; }
 
 #slide2 {
-  background: url("../img/paper.jpg");
+  background: url("../img/pig.svg") 50% 50% no-repeat;
   color: #333333;
   height: 300px;
   margin: 0 auto;
