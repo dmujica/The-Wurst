@@ -1,6 +1,49 @@
 @import "_normalize.scss";
+
 body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+}
+
+.center { 
+	margin: 0 auto; 
+}
+.content{ 
+	margin: 0 auto; width: 960px; 
+}
+.clear { 
+	clear: both; 
+}
+
+header {
+	width: 100%;
+	background: rgba(0,0,0,.3);
+	height: 80px;
+	position: fixed;
+	margin-top: 30px;
+}
+
+nav {
+
+	width: 80%;
+	float: right;
+	margin-top: 20px;
+
+	.logo {
+		float: left;
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	li {
+		margin-top: 9px;
+		float: left;
+		padding-left: 21px;
+	}
 }
