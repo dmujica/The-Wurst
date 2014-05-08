@@ -364,7 +364,7 @@ header {
   margin-top: 30px; }
 
 nav {
-  width: 80%;
+  width: 30%;
   float: right;
   margin-top: 20px; }
   nav .logo {
@@ -382,7 +382,9 @@ nav {
     padding-left: 21px; }
   nav a {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 1.5em; }
 
 #slide1,
 #slide2 {
@@ -397,7 +399,7 @@ nav {
   background-size: cover; }
 
 #slide2 {
-  background-color: #fff;
+  background: url("../img/paper.jpg");
   color: #333333;
   height: 300px;
   margin: 0 auto;
