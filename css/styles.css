@@ -370,6 +370,8 @@ nav {
   nav .logo {
     float: left;
     text-decoration: none; }
+    nav .logo a {
+      font-size: 4em; }
   nav ul {
     list-style: none;
     display: block;
@@ -378,3 +380,26 @@ nav {
     margin-top: 9px;
     float: left;
     padding-left: 21px; }
+  nav a {
+    color: #fff;
+    text-decoration: none; }
+
+#slide1,
+#slide2 {
+  width: 100%; }
+
+#slide1 {
+  background: url("../img/butcher.jpg") 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover; }
+
+#slide2 {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0; }

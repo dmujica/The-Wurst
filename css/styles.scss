@@ -33,6 +33,10 @@ nav {
 	.logo {
 		float: left;
 		text-decoration: none;
+
+		a {
+			font-size: 4em;
+		}
 	}
 
 	ul {
@@ -46,4 +50,35 @@ nav {
 		float: left;
 		padding-left: 21px;
 	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		&:active {
+
+		}
+	}
+}
+
+#slide1, 
+#slide2 { 
+	width: 100%; 
+}
+
+#slide1{
+	background:url('../img/butcher.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
 }
