@@ -341,6 +341,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: 'greatlakesnfregular';
+  src: url("../fonts/GREALN__-webfont.eot");
+  src: url("../fonts/GREALN__-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/GREALN__-webfont.woff") format("woff"), url("../fonts/GREALN__-webfont.ttf") format("truetype"), url("../fonts/GREALN__-webfont.svg#greatlakesnfregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   margin: 0;
   padding: 0;
@@ -360,22 +367,22 @@ nav ul {
   list-style: none;
   display: block;
   margin: 0 auto; }
-nav li {
-  margin-top: 9px;
-  float: left;
-  padding-left: 21px; }
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-family: helvetica;
-  font-size: 1.5em; }
+  nav ul li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px; }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5em; }
+      nav ul li a img {
+        width: 65%; }
 
 footer {
-  background: #000;
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 100px; }
+  height: 115px; }
 
 #slide1,
 #slide2 {
@@ -395,7 +402,7 @@ footer {
     margin: 0 auto; }
     #slide1 .logocontain .logo {
       background: url("../img/logo.svg") 50% 0 no-repeat;
-      width: 100%;
+      width: 75%;
       height: 100%;
       margin: 0 auto;
       position: relative; }
@@ -403,16 +410,20 @@ footer {
 #slide2 {
   background: url("../img/oldpaper.jpg") 50% 50% no-repeat fixed;
   color: #333333;
-  height: 300px;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
   padding: 200px 0;
   -webkit-background-size: cover; }
-  #slide2 .pig {
-    background: url("../img/pig.svg") 50% 50% no-repeat;
+  #slide2 .pigcontain {
+    margin: 0 auto;
     height: 100%;
-    width: 100%;
-    opacity: .2; }
+    width: 100%; }
+    #slide2 .pigcontain .pig {
+      background: url("../img/pig.svg") 50% 50% no-repeat;
+      height: 100%;
+      width: 100%;
+      opacity: .2; }
 
 #slide3 {
   background: url(../img/butcher.jpg) 50% 0 no-repeat fixed;
@@ -422,10 +433,11 @@ footer {
   background-size: cover; }
 
 #slide4 {
-  background-color: #fff;
+  background: url("../img/oldpaper.jpg") 50% 50% no-repeat fixed;
   color: #333333;
-  height: 300px;
-  padding: 200px 0; }
+  height: 600px;
+  padding: 200px 0;
+  -webkit-background-size: cover; }
 
 #slide5 {
   background: url(../img/butcher.jpg) 50% 0 no-repeat fixed;

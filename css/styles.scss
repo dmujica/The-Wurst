@@ -1,4 +1,5 @@
 @import "_normalize.scss";
+@import "_fonts.scss";
 
 body {
 	margin: 0;
@@ -25,31 +26,39 @@ nav {
 		list-style: none;
 		display: block;
 		margin: 0 auto;
-	}
 
-	li {
-		margin-top: 9px;
-		float: left;
-		padding-left: 21px;
-	}
+			li {
+			margin-top: 9px;
+			float: left;
+			padding-left: 21px;
 
-	a {
-		color: #fff;
-		text-decoration: none;
-		font-family: helvetica;
-		font-size: 1.5em;
-		&:active {
+			
+				
+					a {
+					color: #fff;
+					text-decoration: none;
+					font-size: 1.5em;
+					&:active {
+
+						 		}
+					img {
+						width: 65%;
+					}
+				
+					  }
+
+		        }
+
+	
 
 		}
 	}
-}
 
 footer {
-	background: #000;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	height: 100px;
+	height: 115px;
 }
 
 #slide1, 
@@ -73,7 +82,7 @@ footer {
 		
 		.logo {
 			background:url('../img/logo.svg') 50% 0 no-repeat;
-			width: 100%; 
+			width: 75%; 
 			height: 100%; 
 			margin: 0 auto; 
 			position: relative; 
@@ -85,16 +94,22 @@ footer {
 #slide2{
 	background:url('../img/oldpaper.jpg') 50% 50% no-repeat fixed;
 	color: #333333;
-	height: 300px;
+	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
 	-webkit-background-size: cover;
+	.pigcontain {
+		margin: 0 auto;
+		height: 100%;
+		width: 100%;
+
 	.pig {
 		background:url('../img/pig.svg') 50% 50% no-repeat;
 		height: 100%;
 		width: 100%;
 		opacity: .2;
+	}
 	}
 }
 
@@ -107,10 +122,11 @@ footer {
 }
 
 #slide4{
-	background-color: #fff;
+	background:url('../img/oldpaper.jpg') 50% 50% no-repeat fixed;
 	color: #333333;
-	height: 300px;
+	height: 600px;
 	padding: 200px 0;
+	-webkit-background-size: cover;
 }
 
 #slide5{
