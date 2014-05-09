@@ -375,7 +375,7 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 90px; }
+  height: 100px; }
 
 #slide1,
 #slide2 {
@@ -401,12 +401,15 @@ footer {
       position: relative; }
 
 #slide2 {
-  background: url("../img/pig.svg") 50% 50% no-repeat;
+  background: url("../img/oldpaper.jpg") 50% 50% no-repeat fixed;
   color: #333333;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 200px 0; }
+  padding: 200px 0;
+  -webkit-background-size: cover; }
+  #slide2 .pig {
+    background: url("../img/pig.svg") 50% 50% no-repeat; }
 
 #slide3 {
   background: url(../img/butcher.jpg) 50% 0 no-repeat fixed;
