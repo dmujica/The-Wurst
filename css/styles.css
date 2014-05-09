@@ -409,7 +409,10 @@ footer {
   padding: 200px 0;
   -webkit-background-size: cover; }
   #slide2 .pig {
-    background: url("../img/pig.svg") 50% 50% no-repeat; }
+    background: url("../img/pig.svg") 50% 50% no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: .2; }
 
 #slide3 {
   background: url(../img/butcher.jpg) 50% 0 no-repeat fixed;
