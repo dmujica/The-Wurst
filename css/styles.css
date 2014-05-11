@@ -444,7 +444,7 @@ footer {
       width: 100%; }
 
 #slide3 {
-  background: url("../img/butcher.jpg") 50% 0 no-repeat fixed;
+  background: url("../img/story.jpg") 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
@@ -455,3 +455,10 @@ footer {
   color: #333333;
   height: 400px;
   padding: 200px 0; }
+  #slide4 .mapwrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1; }
+  #slide4 #gmap {
+    height: 350px; }
