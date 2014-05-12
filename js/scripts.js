@@ -1,17 +1,18 @@
-// Your Awesome Scripts!
-$(document).ready(function(){
+			
+function initialize() {
+    var mapOptions = {
+        center: new google.maps.LatLng(47.647611, -117.389935),
+        zoom: 18,
+        minZoom: 6,
+        maxZoom: 18,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        streetViewControl: false
+    }; 
+    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
-
-		new Maplace({
-		show_markers: true,
-		locations: [{
-			lat: 47.647611,
-			lon:  -117.389935, 
-			zoom: 16,
-		}]
-	}).Load(); 
-
-	console.log('Page Loaded. Lets Do this!');
-
-
-}); 
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(47.647611, -117.389935), 
+        map: map
+    }); 
+} 
+google.maps.event.addDomListener(window, 'load', initialize);
