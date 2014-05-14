@@ -71,7 +71,7 @@ footer {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	height: 100px;
+	height: 120px;
 	background: black;
 	opacity: .7;
 	z-index: 3;
@@ -117,25 +117,15 @@ footer {
 }
 
 #slide2{
-	background:url('../img/bg1.png') 50% 50% fixed;
+	background:url('../img/paper.jpg') 50% 50% no-repeat fixed;
 	color: #333333;
 	height: 500px;
 	max-width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
-	.pigcontain {
-		margin: 0 auto;
-		height: 100%;
-		width: 100%;
-
-	.pig {
-		
-		height: 100%;
-		width: 100%;
-		
-	}
-	}
+	background-size: cover;
+	
 }
 
 #slide3{
