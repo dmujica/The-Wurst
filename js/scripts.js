@@ -94,7 +94,7 @@ var targetOffset = $target.offset().top;
 $(this).click(function() {
             $("#nav li a").removeClass("active");
             $(this).addClass('active');
-$('html, body').animate({scrollTop: targetOffset}, 2500);
+$('html, body').animate({scrollTop: targetOffset}, 2000);
 return false;
 });
 }
