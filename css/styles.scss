@@ -14,21 +14,6 @@ body {
 	height: 100%
 }
 
-.center { 
-	margin: 0 auto; 
-}
-.content{ 
-	margin: 0 auto; width: 960px; 
-}
-.clear { 
-	clear: both; 
-}
-
-
-
-
-
-
 nav {
 
 
@@ -53,13 +38,13 @@ nav {
 					color: $cream;
 					text-decoration: none;
 					font-size: 1.5em;
-					-webkit-transition: all 0.2s ease-in-out;
-					-moz-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
-					-o-transition: all 0.2s ease-in-out;
-					transition: all 0.2s ease-in-out;
+					-webkit-transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
 					&:hover {
 						color: rgb(118,114,117);
+						fill: gb(118,114,117);
 						}
 
 					img {
@@ -89,8 +74,13 @@ footer {
 .slide { 
 	width: 100%;
 	height: 100%;
+	background-position: center;
+}
+
+.slide1,
+.slide3,
+.slide4 {
 	background-size: cover;
-	background-position: center bottom;
 }
 
 .slide1{
@@ -125,6 +115,7 @@ footer {
 			}
 		}
 }
+
 
 .slide2{
 	background-image:url('../img/bg1.png') ;
