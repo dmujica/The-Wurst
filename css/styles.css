@@ -368,8 +368,6 @@ html {
   width: 100%; }
 
 body {
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 100%; }
 
@@ -410,12 +408,13 @@ footer {
 .slide {
   width: 100%;
   height: 100%;
-  background-position: center; }
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed; }
 
-.slide1,
-.slide3,
-.slide4 {
-  background-size: cover; }
+.marginreset {
+  margin: 0 auto;
+  text-align: center; }
 
 .slide1 {
   background-image: url("../img/butcher3.jpg");
@@ -443,8 +442,7 @@ footer {
 
 .slide2 {
   background-image: url("../img/bg1.png");
-  color: #f7f8f3;
-  margin: 0 auto; }
+  color: #f7f8f3; }
 
 .slide3 {
   background-image: url("../img/story.jpg");
