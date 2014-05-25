@@ -441,7 +441,7 @@ footer {
       position: relative; }
 
 .slide2 {
-  background-image: url("../img/bg1.png");
+  background-image: url("../img/bg1.jpg");
   color: #f7f8f3; }
 
 .slide3 {
@@ -465,7 +465,7 @@ footer {
       display: inline-block;
       background: url("../img/logo.svg") 50% 0 no-repeat;
       vertical-align: middle;
-      width: 12%;
-      height: 12%;
+      width: 20%;
+      height: 20%;
       margin: 0 auto;
       position: relative; }
