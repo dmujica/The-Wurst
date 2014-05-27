@@ -403,7 +403,8 @@ footer {
   height: 18%;
   background: black;
   opacity: .7;
-  z-index: 3; }
+  z-index: 3;
+  padding-bottom: 1%; }
 
 .slide {
   width: 100%;
@@ -442,7 +443,30 @@ footer {
 
 .slide2 {
   background-image: url("../img/bg1.jpg");
-  color: #f7f8f3; }
+  color: #f7f8f3;
+  margin: 0; }
+  .slide2 .menulogo {
+    text-align: center;
+    padding-top: 1%; }
+    .slide2 .menulogo img {
+      width: 10%; }
+  .slide2 .stein {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: inherit;
+    float: left; }
+    .slide2 .stein img {
+      width: 10%;
+      display: inline-block; }
+  .slide2 .wurst {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    height: inherit;
+    border-bottom: 2px solid black; }
+    .slide2 .wurst img {
+      width: 17.5%; }
 
 .slide3 {
   background-image: url("../img/story.jpg");

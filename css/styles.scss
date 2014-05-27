@@ -66,6 +66,7 @@ footer {
 	background: black;
 	opacity: .7;
 	z-index: 3;
+	padding-bottom: 1%;
 }
 
 
@@ -125,6 +126,43 @@ footer {
 .slide2{
 	background-image:url('../img/bg1.jpg');
 	color: $cream;
+	margin: 0;
+	
+		.menulogo {
+			text-align: center;
+			padding-top: 1%;
+
+			img {
+				width: 10%;
+			}
+		}
+
+		.stein {
+			display: inline-block;
+			text-align: center;
+			width: 50%;
+			height: inherit;
+			float: left;
+
+				img {
+					width: 10%;
+					display: inline-block;
+				}
+		}
+
+		.wurst {
+			text-align: center;
+			display: inline-block;
+			width: 50%;
+			height: inherit;
+			border-bottom: 2px solid black;
+
+				img {
+					width: 17.5%;
+				}
+		}
+	
+
 }
 
 .slide3{
