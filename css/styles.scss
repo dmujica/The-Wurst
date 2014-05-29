@@ -58,11 +58,11 @@ nav {
 		}
 	}
 
-footer {
+nav {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	height: 18%;
+	height: 15%;
 	background: black;
 	opacity: .7;
 	z-index: 3;
@@ -73,9 +73,10 @@ footer {
 .slide { 
 	width: 100%;
 	height: 100%;
-	background-position: center top;
 	background-size: cover;
 	background-attachment: fixed;
+	background-repeat:no-repeat;
+
 }
 
 .marginreset {
@@ -83,13 +84,8 @@ footer {
 	text-align: center;
 }
 
-.slide1,
-.slide3,
-.slide4 {
-	
-}
 
-.slide1{
+.home{
 
 	background-image:url('../img/butcher3.jpg');
 	color: #fff;
@@ -123,55 +119,99 @@ footer {
 }
 
 
-.slide2{
-	background-image:url('../img/bg1.jpg');
-	color: $cream;
+.menu {
+	background-image:url('../img/menu.jpg');
 	margin: 0;
-	
-		.menulogo {
-			text-align: center;
-			padding-top: 1%;
-
-			img {
-				width: 10%;
-			}
-		}
+	font-family: 'edmondsansmedium';
+	color: black;
+		
+	.menuwrap {
+		width: 80%;
+		padding: 0 10%;
 
 		.stein {
 			display: inline-block;
 			text-align: center;
-			width: 50%;
-			height: inherit;
 			float: left;
+			width: 25%;
+			padding-top: 2%;
+			 
 
 				img {
-					width: 10%;
+					width: 25%;
 					display: inline-block;
+					padding-bottom:  6.5%;
 				}
+				
+				.steinwrap {
+					border: 2px solid black;
+
+					h2,
+					ul {
+						text-align: left;
+						padding-left: 5%;
+						
+					}
+
+					ul {
+						line-height: 2em;
+						list-style: none;
+					}
+
+					h2 {
+						text-align: left;
+						margin-top: 0;
+						padding: 5%;
+						background: $fadedblk;
+					}
+			    }
 		}
 
 		.wurst {
 			text-align: center;
 			display: inline-block;
-			width: 50%;
-			height: inherit;
-			border-bottom: 2px solid black;
+			width: 70%;
+			padding-top: 2%;
+			float: right;
 
 				img {
-					width: 17.5%;
+					width: 20%;
+					padding-bottom: 3%;
+				}
+				
+				.wurstwrap {
+					border: 2px solid black;
+
+					h2 {
+						text-align: left;
+						background: $fadedblk;
+						margin-top: 0;
+						padding: 2%;
+					}
+					
+					.menucolumn {
+						width: 50%;
+						float: left;
+						h2, 
+						h4, p {
+							text-align: left;
+							padding-left: 0;
+						}
+					}
 				}
 		}
-	
+	}
 
 }
 
-.slide3{
+.story {
 	background-image: url('../img/story.jpg');
 	color: $cream;
+
 	
 }
 
-.slide4{
+.contact {
 	background-image:url('../img/map-bg.jpg');
 	opacity: .7;
 	
@@ -203,3 +243,11 @@ footer {
    
 }
 
+.clearfix:after {
+		     visibility: hidden;
+		     display: block;
+		     font-size: 0;
+		     content: " ";
+		     clear: both;
+		     height: 0;
+		     }

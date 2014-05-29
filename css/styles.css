@@ -396,11 +396,11 @@ nav ul {
       nav ul li a img {
         width: 65%; }
 
-footer {
+nav {
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 18%;
+  height: 15%;
   background: black;
   opacity: .7;
   z-index: 3;
@@ -409,30 +409,30 @@ footer {
 .slide {
   width: 100%;
   height: 100%;
-  background-position: center top;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
 .marginreset {
   margin: 0 auto;
   text-align: center; }
 
-.slide1 {
+.home {
   background-image: url("../img/butcher3.jpg");
   color: #fff;
   margin: 0;
   text-align: center; }
-  .slide1 .logocontain {
+  .home .logocontain {
     width: 100%;
     height: 100%;
     text-align: center; }
-    .slide1 .logocontain:before {
+    .home .logocontain:before {
       display: inline-block;
       content: "";
       height: 100%;
       width: 0px;
       vertical-align: middle; }
-    .slide1 .logocontain .logo {
+    .home .logocontain .logo {
       display: inline-block;
       background: url("../img/logo.svg") 50% 0 no-repeat;
       vertical-align: middle;
@@ -441,51 +441,80 @@ footer {
       margin: 0 auto;
       position: relative; }
 
-.slide2 {
-  background-image: url("../img/bg1.jpg");
-  color: #f7f8f3;
-  margin: 0; }
-  .slide2 .menulogo {
-    text-align: center;
-    padding-top: 1%; }
-    .slide2 .menulogo img {
-      width: 10%; }
-  .slide2 .stein {
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-    height: inherit;
-    float: left; }
-    .slide2 .stein img {
-      width: 10%;
-      display: inline-block; }
-  .slide2 .wurst {
-    text-align: center;
-    display: inline-block;
-    width: 50%;
-    height: inherit;
-    border-bottom: 2px solid black; }
-    .slide2 .wurst img {
-      width: 17.5%; }
+.menu {
+  background-image: url("../img/menu.jpg");
+  margin: 0;
+  font-family: 'edmondsansmedium';
+  color: black; }
+  .menu .menuwrap {
+    width: 80%;
+    padding: 0 10%; }
+    .menu .menuwrap .stein {
+      display: inline-block;
+      text-align: center;
+      float: left;
+      width: 25%;
+      padding-top: 2%; }
+      .menu .menuwrap .stein img {
+        width: 25%;
+        display: inline-block;
+        padding-bottom: 6.5%; }
+      .menu .menuwrap .stein .steinwrap {
+        border: 2px solid black; }
+        .menu .menuwrap .stein .steinwrap h2,
+        .menu .menuwrap .stein .steinwrap ul {
+          text-align: left;
+          padding-left: 5%; }
+        .menu .menuwrap .stein .steinwrap ul {
+          line-height: 2em;
+          list-style: none; }
+        .menu .menuwrap .stein .steinwrap h2 {
+          text-align: left;
+          margin-top: 0;
+          padding: 5%;
+          background: rgba(0, 0, 0, 0.2); }
+    .menu .menuwrap .wurst {
+      text-align: center;
+      display: inline-block;
+      width: 70%;
+      padding-top: 2%;
+      float: right; }
+      .menu .menuwrap .wurst img {
+        width: 20%;
+        padding-bottom: 3%; }
+      .menu .menuwrap .wurst .wurstwrap {
+        border: 2px solid black; }
+        .menu .menuwrap .wurst .wurstwrap h2 {
+          text-align: left;
+          background: rgba(0, 0, 0, 0.2);
+          margin-top: 0;
+          padding: 2%; }
+        .menu .menuwrap .wurst .wurstwrap .menucolumn {
+          width: 50%;
+          float: left; }
+          .menu .menuwrap .wurst .wurstwrap .menucolumn h2,
+          .menu .menuwrap .wurst .wurstwrap .menucolumn h4, .menu .menuwrap .wurst .wurstwrap .menucolumn p {
+            text-align: left;
+            padding-left: 0; }
 
-.slide3 {
+.story {
   background-image: url("../img/story.jpg");
   color: #f7f8f3; }
 
-.slide4 {
+.contact {
   background-image: url("../img/map-bg.jpg");
   opacity: .7; }
-  .slide4 .mapcontainer {
+  .contact .mapcontainer {
     width: 100%;
     height: 100%;
     text-align: center; }
-    .slide4 .mapcontainer:before {
+    .contact .mapcontainer:before {
       display: inline-block;
       content: "";
       height: 100%;
       width: 0px;
       vertical-align: middle; }
-    .slide4 .mapcontainer .maplogo {
+    .contact .mapcontainer .maplogo {
       display: inline-block;
       background: url("../img/logo.svg") 50% 0 no-repeat;
       vertical-align: middle;
@@ -493,3 +522,11 @@ footer {
       height: 20%;
       margin: 0 auto;
       position: relative; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
