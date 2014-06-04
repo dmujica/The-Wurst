@@ -371,31 +371,6 @@ body {
   width: 100%;
   height: 100%; }
 
-nav ul {
-  list-style: none;
-  display: block;
-  margin: 0 auto; }
-  nav ul li {
-    margin-top: 15px;
-    float: left;
-    padding-left: 21px; }
-    nav ul li:nth-of-type(2), nav ul li:nth-of-type(3), nav ul li:nth-of-type(4) {
-      padding-top: 2.5%; }
-    nav ul li a {
-      font-family: 'edmondsansmedium';
-      color: #f7f8f3;
-      text-decoration: none;
-      font-size: 1.5em;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-      nav ul li a:hover {
-        color: #767275;
-        fill: gb(118, 114, 117); }
-      nav ul li a img {
-        width: 65%; }
-
 nav {
   width: 100%;
   position: fixed;
@@ -404,7 +379,40 @@ nav {
   background: black;
   opacity: .7;
   z-index: 3;
-  padding-bottom: 1%; }
+  padding-bottom: 1.5%; }
+  nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0 2.5%; }
+    nav ul li {
+      margin-top: 15px;
+      float: left;
+      padding: 0 21px; }
+      nav ul li:nth-of-type(2), nav ul li:nth-of-type(3), nav ul li:nth-of-type(4) {
+        padding-top: 2.5%; }
+      nav ul li a {
+        font-family: 'edmondsansmedium';
+        color: #f7f8f3;
+        text-decoration: none;
+        font-size: 1.5em;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        nav ul li a:hover {
+          color: #767275;
+          fill: gb(118, 114, 117); }
+        nav ul li a img {
+          width: 65%; }
+      nav ul li:nth-child(n+5) {
+        float: right; }
+        nav ul li:nth-child(n+5) a img {
+          width: 100%; }
+      nav ul li:nth-child(5) {
+        padding-top: 2.70%; }
+      nav ul li:nth-child(n+6) {
+        padding-top: 1.75%; }
 
 .slide {
   width: 100%;
@@ -452,50 +460,58 @@ nav {
     .menu .menuwrap .stein {
       display: inline-block;
       text-align: center;
-      float: left;
+      float: right;
       width: 25%;
       padding-top: 2%; }
       .menu .menuwrap .stein img {
-        width: 25%;
+        width: 15%;
         display: inline-block;
-        padding-bottom: 6.5%; }
+        padding-right: 3%; }
       .menu .menuwrap .stein .steinwrap {
         border: 2px solid black; }
         .menu .menuwrap .stein .steinwrap h2,
-        .menu .menuwrap .stein .steinwrap ul {
-          text-align: left;
-          padding-left: 5%; }
-        .menu .menuwrap .stein .steinwrap ul {
-          line-height: 2em;
-          list-style: none; }
-        .menu .menuwrap .stein .steinwrap h2 {
-          text-align: left;
-          margin-top: 0;
-          padding: 5%;
-          background: rgba(0, 0, 0, 0.2); }
+        .menu .menuwrap .stein .steinwrap h5 {
+          text-align: center; }
+        .menu .menuwrap .stein .steinwrap h1 {
+          margin: 0;
+          padding: 2%;
+          border-bottom: 1px solid black; }
+        .menu .menuwrap .stein .steinwrap h5 {
+          margin: .5rem 0 .5rem 0; }
     .menu .menuwrap .wurst {
       text-align: center;
       display: inline-block;
+      float: left;
       width: 70%;
-      padding-top: 2%;
-      float: right; }
+      padding-top: 2%; }
       .menu .menuwrap .wurst img {
-        width: 20%;
-        padding-bottom: 3%; }
+        width: 10%;
+        padding-right: 3%; }
       .menu .menuwrap .wurst .wurstwrap {
         border: 2px solid black; }
-        .menu .menuwrap .wurst .wurstwrap h2 {
-          text-align: left;
-          background: rgba(0, 0, 0, 0.2);
+        .menu .menuwrap .wurst .wurstwrap h1 {
+          border-bottom: 1px solid black;
           margin-top: 0;
           padding: 2%; }
-        .menu .menuwrap .wurst .wurstwrap .menucolumn {
-          width: 50%;
+        .menu .menuwrap .wurst .wurstwrap .column1 {
+          padding-left: 10%;
+          clear: both;
           float: left; }
-          .menu .menuwrap .wurst .wurstwrap .menucolumn h2,
-          .menu .menuwrap .wurst .wurstwrap .menucolumn h4, .menu .menuwrap .wurst .wurstwrap .menucolumn p {
+        .menu .menuwrap .wurst .wurstwrap .menucolumn {
+          width: 45%;
+          float: left; }
+          .menu .menuwrap .wurst .wurstwrap .menucolumn h3,
+          .menu .menuwrap .wurst .wurstwrap .menucolumn h4, .menu .menuwrap .wurst .wurstwrap .menucolumn h5, .menu .menuwrap .wurst .wurstwrap .menucolumn h6,
+          .menu .menuwrap .wurst .wurstwrap .menucolumn p {
             text-align: left;
-            padding-left: 0; }
+            padding-left: 0;
+            margin: .9rem 0 .9rem 0; }
+          .menu .menuwrap .wurst .wurstwrap .menucolumn p {
+            width: 80%; }
+    .menu .menuwrap .pig {
+      width: 25%;
+      float: right;
+      padding-top: 3%; }
 
 .story {
   background-image: url("../img/story.jpg");
