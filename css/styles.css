@@ -511,11 +511,24 @@ nav {
     .menu .menuwrap .pig {
       width: 25%;
       float: right;
-      padding-top: 3%; }
+      padding: 3% 0; }
+    .menu .menuwrap .tagline {
+      float: right;
+      margin: 0;
+      padding-right: 4%; }
 
 .story {
-  background-image: url("../img/story.jpg");
-  color: #f7f8f3; }
+  background-image: url("../img/story2.jpg");
+  color: #f7f8f3;
+  text-align: center; }
+  .story .storywrap {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+    line-height: 3rem; }
+    .story .storywrap img {
+      padding-top: 1%;
+      width: 10%; }
 
 .contact {
   background-image: url("../img/map-bg.jpg");
