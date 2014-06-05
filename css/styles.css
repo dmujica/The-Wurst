@@ -456,7 +456,8 @@ nav {
   color: black; }
   .menu .menuwrap {
     width: 80%;
-    padding: 0 10%; }
+    padding: 0 10%;
+    padding-top: 3%; }
     .menu .menuwrap .stein {
       display: inline-block;
       text-align: center;
